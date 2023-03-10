@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+html{
+	height: -webkit-fill-available;
+  }
+  body{
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+  }
+*{
+	font-family: 'Klee One', cursive !important;
+}
+
+.text-xxlarge{
+	font-size: xx-large;	
+}
+
+.text-xlarge{
+	font-size: x-large;
+}
+
+.text-large{
+	font-size: large;
+}
+
+.text-small{
+	font-size: small;
+}
+
+.text-xxsmall{
+	font-size: 12px;
+}
+
+.prSelect .v-select__selection-text{
+	font-size: x-large;
+}
+
+.prSelect i{
+	margin-top: 13px;
+}
+
+.fab-icon{
+	position: fixed;
+	right:7vw;
+	bottom: 50px;
+
+}
+
+.v-color-picker-preview__alpha{
+	display: none !important;
+}
+
+.sort .v-input__control .v-field .v-field__field .v-field__input{
+	padding-top: 9px
+}
+
+.slide-enter-active{
+	transition: all .3s;
+}
+
+.slide-leave-active {
+	transition: all .3s;
+  }
+.slide-enter-from,
+.slide-leave-to{
+	transform: translateY(-20px);
+	opacity: 0;
+}
+
+.custom-switch .v-input__details{
+	display: none;
+}
+
+.comment-input .v-input__details{
+	display: none;
+}
+
+.taskLog{
+		max-height: 100vh;
+		overflow: scroll;
+	  /*IE(Internet Explorer)・Microsoft Edgeへの対応*/
+	  -ms-overflow-style: none;
+	  /*Firefoxへの対応*/
+	  scrollbar-width: none;
+	  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+ /*Google Chrome、Safariへの対応*/
+ .taskLog::-webkit-scrollbar{
+	display: none;
+  }
